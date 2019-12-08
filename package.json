@@ -2,7 +2,7 @@
   "name": "pop-the-word",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://antonryzhkov.github.io/AntonRyzhkov/pop-the-word",
+  "homepage":"https://antonryzhkov.github.io/pop-the-word",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "git": "^0.1.5",
