@@ -1,0 +1,59 @@
+.bubble {
+    position: absolute;    
+    border-radius: 100px;
+    width:7.3vmax;
+    height:7.3vmax;    
+    user-select: none;
+    vertical-align: middle;
+    outline:none;
+    border: none;
+    background: linear-gradient(to top right, LimeGreen, DarkSlateGray);
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: black; 
+    font: 1.35vmax Verdana;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.failed {
+    background:linear-gradient(45deg, maroon, salmon);
+}
+
+.tip {    
+    background: linear-gradient(to right, transparent 0%, LimeGreen 20%, LimeGreen 80%,  transparent 100%);
+    animation-duration: 0.5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;    
+    font-weight: bold;    
+}
+
+.truly {
+    animation-duration: 0.6s;
+    animation-name: pop;
+    animation-iteration-count: 1;    
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 100%; 
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+@keyframes pop {
+    from {
+        transform: scale(1);        
+    }
+    to {
+        transform: scale(0.1)
+    }
+}
